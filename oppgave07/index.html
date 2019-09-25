@@ -6,13 +6,6 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Oppgave 7</title>
         <link rel="stylesheet" href="../index.css">
-        <style>
-            img {
-                width: 30%;
-            }
-
-            
-        </style>
     </head>
     <body>
         <header>
@@ -24,19 +17,19 @@
                 <a href="../oppgave04/index.html">4</a>
                 <a href="../oppgave05/index.html">5</a>
                 <a href="../oppgave06/index.html">6</a>
-                <a href="./index.html">7</a>
-                <a href="#">8</a>
+                <a class="active" href="./index.html">7</a>
+                <a href="../oppgave08/index.html">8</a>
             </nav>
 
         </header>
 
         <main>
-            <h1>Oppgave 7 - Nyhetsartikkel</h1>
+            <h1 class="oppgaveh1">Oppgave 7 - Nyhetsartikkel</h1>
 
             <form id="formNyhetsartikkel"> 
-                <input type="URL" id="inpImg" accept="imgage/*" placeholder="Bildelink?" required>
-                <input type="text" id="inpOverskrift" placeholder="Overskrift?" required>
-                <button type="submit">Legg til nyhetsartikkel</button>
+                <input class="inpOppgave07" type="URL" id="inpImg" accept="imgage/*" placeholder="Bildelink?" required>
+                <input class="inpOppgave07" type="text" id="inpOverskrift" placeholder="Overskrift?" required>
+                <button class="inpOppgave07" type="submit">Legg til nyhetsartikkel</button>
             </form>
 
             <div id="nyheter">

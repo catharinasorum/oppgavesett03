@@ -8,6 +8,7 @@ body {
     background-color: darkgray;
     color: white;
     font-family: Helvetica, sans-serif;
+    margin-left: 1rem;
 }
 
 header {
@@ -34,6 +35,9 @@ header nav a:hover {
     text-decoration: line-through;
 }
 
+header nav .active {
+    font-weight: 700;   
+}
 
 main section {
     min-height: 100vh;
@@ -66,11 +70,48 @@ footer p {
     text-transform: uppercase;
 }
 
-/* Oppgave 1 & 2*/
-h1 {
+/* Oppgave 1, 2, 3, 4, 5, 6, 7, 8 */
+.oppgaveh1 {
     margin-top: 5rem;
 }
 
 p {
     margin-top: 2rem;
 }
+
+/* Oppgave 3 */
+/* Oppgave 4 */
+/* Oppgave 5 */
+#oppgave05-boks {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: green;
+}
+
+/* Oppgave 6 */
+.inpOppgave6 {
+    margin-top: 1rem;
+    padding : 1rem;
+    width: 20rem;
+}
+
+/* Oppgave 7 */
+.inpOppgave07 {
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+}
+
+#formNyhetsartikkel {
+    padding-top: 1rem;
+}
+
+#nyheter {
+    margin-top: 2rem;
+}
+
+#nyheter img {
+    width: 30%;
+}
+
+/* Oppgave 8 */
