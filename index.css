@@ -3,7 +3,6 @@
     margin: 0;
 }
 
-
 body {
     background-color: darkgray;
     color: white;
@@ -11,6 +10,7 @@ body {
     margin-left: 1rem;
 }
 
+/* Header */
 header {
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
@@ -39,23 +39,25 @@ header nav .active {
     font-weight: 700;   
 }
 
+/* Main */
 main section {
     min-height: 100vh;
     padding-top: 5rem;
     padding-left: 2rem;
 }
 
+/* Footer */
 footer {
     background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    display: grid;
 }
 
 footer p {
     padding: 0.5rem 1.5rem;
+    
 }
 
 /* Forsiden */
@@ -79,8 +81,6 @@ p {
     margin-top: 2rem;
 }
 
-/* Oppgave 3 */
-/* Oppgave 4 */
 /* Oppgave 5 */
 #oppgave05-boks {
     position: absolute;
