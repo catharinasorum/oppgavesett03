@@ -89,6 +89,12 @@ p {
     background-color: green;
 }
 
+#inpX, #inpY {
+    padding: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 /* Oppgave 6 */
 .inpOppgave6 {
     margin-top: 1rem;
@@ -115,3 +121,43 @@ p {
 }
 
 /* Oppgave 8 */
+.oppgave08 {
+    padding: 0.5rem;
+    width: 14rem;;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#arrangementer {
+    background-color: white;
+    width: 30%;
+    overflow: auto;
+    margin: 1rem;
+}
+
+#arrangementer img {
+    width: 10rem;
+    float: left;
+    padding-right: 1rem;
+}
+
+#oppgave08-navn-styling {
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 1rem;
+    color: rgb(51, 51, 160);
+}
+#oppgave08-sted-styling {
+    font-size: 1rem;
+    font-weight: 300;
+    color: black;
+}
+#oppgave08-gjester-styling {
+    font-size: 1rem;
+    font-weight: 300;
+    color: grey;
+}
+
+#oppgave08-interested-going {
+    color: rgb(51, 51, 160);
+}
