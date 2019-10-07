@@ -93,6 +93,7 @@ p {
     padding: 0.5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    outline: none;
 }
 
 /* Oppgave 6 */
@@ -100,12 +101,14 @@ p {
     margin-top: 1rem;
     padding : 1rem;
     width: 20rem;
+    outline: none;
 }
 
 /* Oppgave 7 */
 .inpOppgave07 {
     padding: 0.5rem;
     border-radius: 0.8rem;
+    outline: none;
 }
 
 #formNyhetsartikkel {
@@ -126,6 +129,7 @@ p {
     width: 14rem;;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    outline: none;
 }
 
 #arrangementer {
